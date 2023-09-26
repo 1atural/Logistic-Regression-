@@ -1,7 +1,7 @@
 # Logistic-Regression-
 
 Logistic regression is a great model for classification, given that it calculates
-the probabilities for an input to be in a given class. A model that is used when we 
+the probabilities for an input to be in a certain class. A model that is used when we 
 have a binary classification binary ; as in our case, we will use the model to predict
 whether this plant is 'iris versicolor' or not 'iris virginica'.
 

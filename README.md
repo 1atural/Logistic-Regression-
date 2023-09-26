@@ -17,7 +17,7 @@ whether this plant is 'iris versicolor' or not 'iris virginica'.
 
 ### Logistic Regression Formula
 
-<h2 align="center"> $f(x)= \frac {L}{1+ e^{-k(x-x_0)}}$</h2>
+$f(x)= \frac {L}{1+ e^{-k(x-x_0)}}$
 
 * f(x)	=	output of the function
 * L	=	the curve's maximum value
@@ -27,19 +27,21 @@ whether this plant is 'iris versicolor' or not 'iris virginica'.
 
 
 
-### Sigmoid Formula
+### Sigmoid Function
 
-<h2 align="center"> $S(x)= \frac {1}{1+e^{-x}}$
+The Sigmoid function, an S shaped graph with a given threshold, turns real predicted values into probabilities between 0 and 1. 
 
-*S(x)	=	sigmoid function
-*e	=	Euler's number
+ $S(x)= \frac {1}{1+e^{-x}}$
 
-### Logistic Loss Formula
+* S(x)	=	sigmoid function
+* e	=	Euler's number
+
+### Logistic Loss Function
 
 Logistic Loss is an essential classification metric for evaluating a model, as it quantifies how well
 the predicted probabilities align with the actual values.
 
-<h2 align="center"> $−1N∑i=1N[yilogpi+(1−yi)log(1−pi)]$
+$−1N∑i=1N[yilogpi+(1−yi)log(1−pi)]$
 
 
 ### Gradient Descent 
